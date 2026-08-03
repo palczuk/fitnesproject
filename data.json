@@ -1,0 +1,4010 @@
+{
+  "meta": {
+    "pesoInicial": 105,
+    "pesoMeta": 98,
+    "dataInicio": "2026-08-09",
+    "dataFim": "2026-12-31",
+    "idade": 44,
+    "altura": 1.85,
+    "gordura": 24
+  },
+  "dias": [
+    {
+      "date": "2026-08-09",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-10",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-08-11",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-12",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-08-13",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-14",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-15",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-16",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-17",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-08-18",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-19",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-08-20",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-21",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-22",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-23",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-24",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-08-25",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-26",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-08-27",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-28",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-29",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-30",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-31",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-09-01",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-02",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-09-03",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-04",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-05",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-06",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-07",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-09-08",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-09",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-09-10",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-11",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-12",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-13",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-14",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-09-15",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-16",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-09-17",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-18",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-19",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-20",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-21",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-09-22",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-23",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-09-24",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-25",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-26",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-27",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-09-28",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-09-29",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-09-30",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 9,
+      "monthName": "Setembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-10-01",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-02",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-03",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-04",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-05",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-10-06",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-07",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-10-08",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-09",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-10",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-11",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-12",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-10-13",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-14",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-10-15",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-16",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-17",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-18",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-19",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-10-20",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-21",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-10-22",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-23",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-24",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-25",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-26",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-10-27",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-28",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-10-29",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-10-30",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-10-31",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 10,
+      "monthName": "Outubro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-01",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-02",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-11-03",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-04",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-11-05",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-06",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-07",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-08",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-09",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-11-10",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-11",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-11-12",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-13",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-14",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-15",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-16",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-11-17",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-18",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-11-19",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-20",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-21",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-22",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-23",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-11-24",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-25",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-11-26",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-27",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-28",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-11-29",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-11-30",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 11,
+      "monthName": "Novembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-12-01",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-02",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-12-03",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-04",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-05",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-06",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-07",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-12-08",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-09",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-12-10",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-11",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-12",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-13",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-14",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-12-15",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-16",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-12-17",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-18",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-19",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-20",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-21",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-12-22",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-23",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-12-24",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-25",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-26",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-27",
+      "weekdayNum": 7,
+      "weekday": "Domingo",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Descanso",
+      "tipo": "descanso",
+      "foco": "Dia de menor gasto: porções de carboidrato um pouco menores, proteína mantida, foco em recuperação",
+      "comer": [
+        "Proteínas magras",
+        "Vegetais",
+        "Arroz/feijão (porção menor)",
+        "Frutas"
+      ],
+      "evitar": [
+        "Excesso de carboidrato e doces",
+        "Álcool em excesso"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-12-28",
+      "weekdayNum": 1,
+      "weekday": "Segunda-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Corrida",
+      "tipo": "corrida",
+      "foco": "Carboidrato de fácil digestão pré-treino + hidratação",
+      "comer": [
+        "Banana",
+        "Pão integral",
+        "Mel",
+        "Aveia",
+        "Café",
+        "Arroz branco",
+        "Batata doce",
+        "Frutas",
+        "Água de coco"
+      ],
+      "evitar": [
+        "Frituras",
+        "Laticínios em excesso antes de correr",
+        "Fibra pesada (feijão/couve cru) perto do treino",
+        "Refrigerante"
+      ],
+      "preManha": "Café da manhã leve em carbo simples = pré-treino. Almoço = pós-treino, com proteína.",
+      "preTarde": "Almoço mais leve em gordura = pré-treino. Jantar = pós-treino, com proteína e carbo moderado."
+    },
+    {
+      "date": "2026-12-29",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-12-30",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-12-31",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 12,
+      "monthName": "Dezembro",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    }
+  ]
+}

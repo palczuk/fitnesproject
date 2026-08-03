@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plano 105→98 — Treino &amp; Alimentação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <span class="brand-mark">105→98</span>
+      <span class="brand-sub">plano ago–dez</span>
+    </div>
+    <div class="stat-row" id="stat-row">
+      <div class="stat">
+        <span class="stat-label">hoje</span>
+        <span class="stat-value" id="stat-today">—</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">dia</span>
+        <span class="stat-value" id="stat-dayof">—</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">peso projetado</span>
+        <span class="stat-value" id="stat-projected">—</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-track">
+      <div class="progress-fill" id="progress-fill"></div>
+      <div class="progress-marker" id="progress-marker"></div>
+    </div>
+    <div class="progress-labels">
+      <span>9 ago · 105 kg</span>
+      <span>31 dez · 98 kg</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="heatmap-section">
+    <div class="section-head">
+      <h2>calendário de treino</h2>
+      <p class="section-sub">cada quadrado é um dia — clique num quadrado ou use os filtros abaixo</p>
+    </div>
+    <div id="heatmap" class="heatmap"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="filters-section">
+    <div class="filters-row">
+      <div class="filter-group">
+        <label class="filter-label">mês</label>
+        <div class="chip-group" id="filter-month"></div>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label">treino</label>
+        <div class="chip-group" id="filter-tipo"></div>
+      </div>
+    </div>
+    <div class="filters-row">
+      <div class="filter-group grow">
+        <label class="filter-label" for="search">buscar em foco / comer / evitar</label>
+        <input type="search" id="search" placeholder="ex: ovos, frituras, batata doce…" autocomplete="off">
+      </div>
+      <div class="filter-group">
+        <label class="filter-label" for="period">se o treino for</label>
+        <select id="period">
+          <option value="">indiferente</option>
+          <option value="preManha">de manhã</option>
+          <option value="preTarde">à tarde</option>
+        </select>
+      </div>
+      <button id="clear-filters" class="btn-ghost">limpar filtros</button>
+    </div>
+    <p class="result-count" id="result-count"></p>
+  </section>
+
+  <section class="list-section">
+    <div id="day-list" class="day-list"></div>
+    <p class="empty-state" id="empty-state" hidden>nenhum dia bate com esses filtros. tenta soltar algum.</p>
+  </section>
+
+</main>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <button class="drawer-close" id="drawer-close" aria-label="Fechar">✕</button>
+    <div class="drawer-content" id="drawer-content"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>gerado a partir do plano de treino/alimentação · dados em <code>data.json</code></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
