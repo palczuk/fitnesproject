@@ -4006,5 +4006,252 @@
       "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
       "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
     }
-  ]
+  ],
+  "registros": {
+    "2026-08-04": {
+      "peso": {
+        "valor": 104.8,
+        "meta": 98.0,
+        "bmi": 30.6,
+        "gordura_pct": 28.6,
+        "gordura_kg": 30.0,
+        "massa_muscular_kg": 70.9,
+        "massa_muscular_pct": 67.7,
+        "massa_ossea_kg": 3.6,
+        "proteina_pct": 15.5,
+        "agua_pct": 52.0,
+        "agua_kg": 54.5,
+        "bmr_kcal": 2042,
+        "idade_metabolica": 52,
+        "gordura_visceral": 14.0,
+        "condicao": "fasted, 06:00"
+      },
+      "treino": {
+        "tipo": "Musculação",
+        "exercicios": [
+          {
+            "nome": "Front squat",
+            "sets": 4,
+            "reps": 8,
+            "carga": "50 lb"
+          },
+          {
+            "nome": "Back squat",
+            "sets": 4,
+            "reps": null,
+            "carga": "40 lb"
+          },
+          {
+            "nome": "Kettlebell farmer carry",
+            "sets": 4,
+            "reps": "150m",
+            "carga": "40 lb"
+          },
+          {
+            "nome": "Afundo",
+            "sets": 4,
+            "reps": 20,
+            "carga": null
+          },
+          {
+            "nome": "Jump box",
+            "sets": 4,
+            "reps": 8,
+            "carga": null
+          },
+          {
+            "nome": "Panturrilha",
+            "sets": 4,
+            "reps": 8,
+            "carga": null
+          },
+          {
+            "nome": "Climbing",
+            "sets": 4,
+            "reps": 20,
+            "carga": null
+          },
+          {
+            "nome": "Abdominais em V",
+            "sets": 2,
+            "reps": 12,
+            "carga": null
+          }
+        ]
+      },
+      "refeicoes": [
+        {
+          "momento": "Pré-treino",
+          "itens": [
+            "Creatina",
+            "Pré-treino"
+          ]
+        },
+        {
+          "momento": "Café da manhã",
+          "itens": [
+            "3 ovos",
+            "Meia fatia de pão",
+            "2 xícaras de café com leite"
+          ]
+        },
+        {
+          "momento": "Almoço (parte 1)",
+          "itens": [
+            "1 scoop whey protein com leite integral"
+          ]
+        },
+        {
+          "momento": "Almoço (parte 2)",
+          "itens": [
+            "2 porções de strogonoff de frango",
+            "Pouco arroz",
+            "Salada",
+            "1 copo de Mountain Dew"
+          ]
+        },
+        {
+          "momento": "Tarde/Noite",
+          "itens": [
+            "1 lata de chá Arizona",
+            "Sementes de girassol",
+            "1 pedaço de torta quiche de ovos",
+            "Café com leite",
+            "1 pedaço de torta de limão",
+            "1 copo de whey protein"
+          ]
+        }
+      ],
+      "notas": "Trocou refrigerante do almoço por Coca Zero em vez de Pepsi normal."
+    },
+    "2026-08-05": {
+      "peso": {
+        "valor": 104.0,
+        "meta": 98.0,
+        "bmi": 30.4,
+        "gordura_pct": 27.9,
+        "gordura_kg": 29.0,
+        "massa_muscular_kg": 70.4,
+        "massa_muscular_pct": 67.7,
+        "massa_ossea_kg": 3.6,
+        "proteina_pct": 15.6,
+        "agua_pct": 52.4,
+        "agua_kg": 54.5,
+        "bmr_kcal": 2040,
+        "idade_metabolica": 51,
+        "gordura_visceral": 14.0,
+        "condicao": "fasted, 05:48"
+      },
+      "treino": {
+        "tipo": "Musculação (aparelhos Nautilus)",
+        "duracao_min": 40,
+        "descanso": "~1 min entre séries",
+        "exercicios": [
+          {
+            "nome": "Incline press",
+            "sets": 3,
+            "reps": 10,
+            "carga": "50 kg"
+          },
+          {
+            "nome": "Lat pulldown",
+            "sets": 3,
+            "reps": 10,
+            "carga": "71 kg"
+          },
+          {
+            "nome": "Compound row",
+            "sets": 3,
+            "reps": 10,
+            "carga": "71 kg"
+          },
+          {
+            "nome": "Seated dip",
+            "sets": 3,
+            "reps": 10,
+            "carga": "84 kg"
+          },
+          {
+            "nome": "Rear delt / Pec fly",
+            "sets": 3,
+            "reps": 10,
+            "carga": "50 kg (até a falha)"
+          },
+          {
+            "nome": "Tríceps polia",
+            "sets": 3,
+            "reps": 10,
+            "carga": "50 lb"
+          },
+          {
+            "nome": "Supino reto",
+            "sets": 4,
+            "reps": 10,
+            "carga": "10→20→40→51 kg (até a falha)"
+          },
+          {
+            "nome": "Bíceps com barra",
+            "sets": 3,
+            "reps": 10,
+            "carga": "20 kg"
+          }
+        ]
+      },
+      "refeicoes": [
+        {
+          "momento": "Pré-treino",
+          "itens": [
+            "Creatina",
+            "Pré-treino"
+          ]
+        },
+        {
+          "momento": "Café da manhã",
+          "itens": [
+            "1 scoop whey protein (Animal) com leite",
+            "1/2 pão (fatia/pedaço)",
+            "1 xícara de café com leite",
+            "3 ovos mexidos",
+            "2 ovos cozidos"
+          ]
+        },
+        {
+          "momento": "Almoço",
+          "itens": [
+            "1 copo de suco",
+            "Arroz",
+            "Feijão",
+            "Pouco de strogonoff de frango",
+            "Carne de panela",
+            "Salada",
+            "1 scoop de whey"
+          ]
+        },
+        {
+          "momento": "Lanche da tarde",
+          "itens": [
+            "1 pêssego",
+            "2 laranjas",
+            "1 scoop de whey com leite e mamão",
+            "1 xícara de café com leite"
+          ]
+        },
+        {
+          "momento": "Jantar",
+          "itens": [
+            "Hambúrguer assado na air fryer",
+            "Pão",
+            "1 fatia de muçarela",
+            "Cebola fatiada dourada (air fryer)",
+            "1 long neck de cerveja"
+          ]
+        }
+      ],
+      "notas": "Dia completo: treino de Nautilus (peito/costas/braço) pela manhã, trabalho físico pesado à tarde (transporte de equipamento militar), boa distribuição de proteína (whey 3x + ovos + carnes) ao longo do dia. Jantar leve com hambúrguer na air fryer + 1 cerveja.",
+      "atividade_extra": {
+        "momento": "Tarde",
+        "descricao": "Trabalho pesado — transporte de equipamentos militares (esforço físico não estruturado, fora do treino)"
+      }
+    }
+  }
 }

@@ -90,13 +90,17 @@ function buildLegend() {
 
 function buildHeatmap() {
   const wrap = el('#heatmap');
-  wrap.innerHTML = state.data.dias.map(d => `
-    <div class="hcell" data-date="${d.date}" data-tipo="${d.tipo}"
+  const registros = state.data.registros || {};
+  wrap.innerHTML = state.data.dias.map(d => {
+    const logged = !!registros[d.date];
+    return `
+    <div class="hcell${logged ? ' logged' : ''}" data-date="${d.date}" data-tipo="${d.tipo}"
          style="background:${COLORS[d.tipo]}"
-         title="${fmtDatePt(d.date)} · ${d.weekday} · ${d.treino}"
-         tabindex="0" role="button" aria-label="${fmtDatePt(d.date)}, ${d.treino}">
+         title="${fmtDatePt(d.date)} · ${d.weekday} · ${d.treino}${logged ? ' · registrado ✓' : ''}"
+         tabindex="0" role="button" aria-label="${fmtDatePt(d.date)}, ${d.treino}${logged ? ', dia registrado' : ''}">
     </div>
-  `).join('');
+  `;
+  }).join('');
 
   wrap.addEventListener('click', (e) => {
     const cell = e.target.closest('.hcell');
@@ -232,6 +236,75 @@ function render() {
   });
 }
 
+function buildRegistroHtml(registro) {
+  let html = `<div class="log-banner">✓ Dia registrado — dados reais abaixo</div>`;
+
+  if (registro.peso) {
+    const p = registro.peso;
+    html += `
+      <div class="drawer-block">
+        <h4>Pesagem${p.condicao ? ' · ' + p.condicao : ''}</h4>
+        <div class="stat-grid">
+          <div class="stat-cell highlight"><span class="k">Peso</span><span class="v">${p.valor} kg</span></div>
+          <div class="stat-cell"><span class="k">Meta</span><span class="v">${p.meta} kg</span></div>
+          <div class="stat-cell"><span class="k">BMI</span><span class="v">${p.bmi}</span></div>
+          <div class="stat-cell"><span class="k">Gordura</span><span class="v">${p.gordura_pct}% (${p.gordura_kg}kg)</span></div>
+          <div class="stat-cell"><span class="k">Massa muscular</span><span class="v">${p.massa_muscular_kg}kg (${p.massa_muscular_pct}%)</span></div>
+          <div class="stat-cell"><span class="k">Água</span><span class="v">${p.agua_pct}%</span></div>
+          <div class="stat-cell"><span class="k">Metab. basal</span><span class="v">${p.bmr_kcal} kcal</span></div>
+          <div class="stat-cell"><span class="k">Idade metabólica</span><span class="v">${p.idade_metabolica}</span></div>
+        </div>
+      </div>`;
+  }
+
+  if (registro.treino && registro.treino.exercicios) {
+    html += `
+      <div class="drawer-block">
+        <h4>Treino real · ${registro.treino.tipo || ''}</h4>
+        <table class="log-table">
+          <thead><tr><th>Exercício</th><th>Sets</th><th>Reps</th><th>Carga</th></tr></thead>
+          <tbody>
+            ${registro.treino.exercicios.map(ex => `
+              <tr>
+                <td class="ex-name">${ex.nome}</td>
+                <td>${ex.sets ?? '—'}</td>
+                <td>${ex.reps ?? '—'}</td>
+                <td>${ex.carga ?? '—'}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>`;
+  }
+
+  if (registro.refeicoes && registro.refeicoes.length) {
+    html += `
+      <div class="drawer-block">
+        <h4>Alimentação real</h4>
+        ${registro.refeicoes.map(r => `
+          <div class="meal-item">
+            <div class="momento">${r.momento}</div>
+            <div class="tag-list">${r.itens.map(i => `<span class="tag">${i}</span>`).join('')}</div>
+          </div>
+        `).join('')}
+      </div>`;
+  }
+
+  if (registro.atividade_extra) {
+    html += `
+      <div class="drawer-block">
+        <h4>Atividade extra · ${registro.atividade_extra.momento}</h4>
+        <p>${registro.atividade_extra.descricao}</p>
+      </div>`;
+  }
+
+  if (registro.notas) {
+    html += `<p class="log-note">${registro.notas}</p>`;
+  }
+
+  return html;
+}
+
 function openDrawer(date) {
   const d = state.data.dias.find(x => x.date === date);
   if (!d) return;
@@ -269,7 +342,10 @@ function openDrawer(date) {
     </div>` : ''}
   `;
 
-  el('#drawer-content').innerHTML = content;
+  const registro = (state.data.registros || {})[date];
+  const logHtml = registro ? buildRegistroHtml(registro) : '';
+
+  el('#drawer-content').innerHTML = logHtml + content;
   el('#drawer').classList.add('open');
   el('#drawer').setAttribute('aria-hidden', 'false');
 }
