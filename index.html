@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -41,13 +42,25 @@
       <div class="progress-marker" id="progress-marker"></div>
     </div>
     <div class="progress-labels">
-      <span>9 ago · 105 kg</span>
+      <span>4 ago · 105 kg</span>
       <span>31 dez · 98 kg</span>
     </div>
   </div>
 </header>
 
 <main>
+
+  <section class="chart-section">
+    <div class="section-head">
+      <h2>evolução da pesagem</h2>
+      <p class="section-sub">dados reais da balança, dia a dia — clique numa métrica pra trocar o gráfico</p>
+    </div>
+    <div class="chip-group" id="filter-metric"></div>
+    <div class="chart-wrap">
+      <canvas id="metric-chart" height="260"></canvas>
+    </div>
+    <div class="chart-empty" id="chart-empty" hidden>ainda não há registros suficientes pra desenhar um gráfico — manda pelo menos um dia com pesagem.</div>
+  </section>
 
   <section class="heatmap-section">
     <div class="section-head">
@@ -56,6 +69,7 @@
     </div>
     <div id="heatmap" class="heatmap"></div>
     <div class="legend" id="legend"></div>
+    <p class="section-sub" style="margin-top:10px;">dias com um contorno branco têm dados reais registrados (peso, treino, refeições)</p>
   </section>
 
   <section class="filters-section">

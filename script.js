@@ -16,6 +16,18 @@ const LABELS = {
   descanso: 'Descanso',
 };
 
+const METRICS = [
+  { key: 'valor', label: 'Peso', unit: 'kg', color: '#6E9BFF', showMeta: true },
+  { key: 'bmi', label: 'BMI', unit: '', color: '#FF9A52' },
+  { key: 'gordura_pct', label: 'Gordura %', unit: '%', color: '#EB5757' },
+  { key: 'gordura_kg', label: 'Gordura (kg)', unit: 'kg', color: '#F2994A' },
+  { key: 'massa_muscular_kg', label: 'Massa muscular (kg)', unit: 'kg', color: '#6FD69A' },
+  { key: 'massa_muscular_pct', label: 'Massa muscular %', unit: '%', color: '#27AE60' },
+  { key: 'agua_pct', label: 'Água %', unit: '%', color: '#56CCF2' },
+  { key: 'bmr_kcal', label: 'Metab. basal', unit: 'kcal', color: '#BB6BD9' },
+  { key: 'idade_metabolica', label: 'Idade metabólica', unit: 'anos', color: '#F2C94C' },
+];
+
 const state = {
   data: null,
   months: [],
@@ -26,6 +38,8 @@ const state = {
     period: '',    // '', 'preManha', 'preTarde'
   },
   selectedDate: null,
+  selectedMetric: 'valor',
+  chart: null,
 };
 
 const el = (sel) => document.querySelector(sel);
@@ -52,6 +66,8 @@ async function init() {
   state.months = monthsSeen;
 
   buildHeader();
+  buildMetricFilter();
+  renderChart();
   buildLegend();
   buildHeatmap();
   buildFilterMonth();
@@ -76,6 +92,110 @@ function buildHeader() {
 
   el('#progress-fill').style.width = `${pct}%`;
   el('#progress-marker').style.left = `${pct}%`;
+}
+
+function buildMetricFilter() {
+  const wrap = el('#filter-metric');
+  wrap.innerHTML = METRICS.map(m => `
+    <button class="chip${m.key === state.selectedMetric ? ' active' : ''}" data-metric="${m.key}">
+      <span class="dot" style="background:${m.color}"></span>${m.label}
+    </button>
+  `).join('');
+
+  wrap.addEventListener('click', (e) => {
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    state.selectedMetric = chip.dataset.metric;
+    [...wrap.children].forEach(c => c.classList.toggle('active', c === chip));
+    renderChart();
+  });
+}
+
+function renderChart() {
+  const registros = state.data.registros || {};
+  const dates = Object.keys(registros).sort();
+  const canvas = el('#metric-chart');
+  const empty = el('#chart-empty');
+
+  if (dates.length === 0) {
+    canvas.hidden = true;
+    empty.hidden = false;
+    return;
+  }
+  canvas.hidden = false;
+  empty.hidden = true;
+
+  const metric = METRICS.find(m => m.key === state.selectedMetric);
+  const labels = dates.map(fmtDatePt);
+  const values = dates.map(d => {
+    const p = registros[d].peso;
+    return p ? (p[metric.key] ?? null) : null;
+  });
+
+  const datasets = [{
+    label: metric.label,
+    data: values,
+    borderColor: metric.color,
+    backgroundColor: metric.color + '22',
+    pointBackgroundColor: metric.color,
+    pointRadius: 4,
+    pointHoverRadius: 6,
+    tension: 0.3,
+    fill: true,
+    spanGaps: true,
+  }];
+
+  if (metric.showMeta) {
+    const metaValues = dates.map(d => registros[d].peso?.meta ?? null);
+    datasets.push({
+      label: 'Meta',
+      data: metaValues,
+      borderColor: '#7FE0A8',
+      borderDash: [6, 4],
+      pointRadius: 0,
+      fill: false,
+      spanGaps: true,
+    });
+  }
+
+  if (state.chart) state.chart.destroy();
+
+  state.chart = new Chart(canvas.getContext('2d'), {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          display: metric.showMeta,
+          labels: { color: '#9BA3B0', font: { family: 'Inter', size: 11 } },
+        },
+        tooltip: {
+          backgroundColor: '#1B1F26',
+          borderColor: '#2A303B',
+          borderWidth: 1,
+          titleColor: '#ECEEF1',
+          bodyColor: '#9BA3B0',
+          padding: 10,
+          callbacks: {
+            label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y ?? '—'} ${metric.unit}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          grid: { color: 'rgba(217,205,163,0.06)' },
+          ticks: { color: '#656E7C', font: { family: 'JetBrains Mono', size: 10 } },
+        },
+        y: {
+          grid: { color: 'rgba(217,205,163,0.06)' },
+          ticks: { color: '#656E7C', font: { family: 'JetBrains Mono', size: 10 } },
+        },
+      },
+    },
+  });
 }
 
 function buildLegend() {
