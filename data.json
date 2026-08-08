@@ -2,13 +2,155 @@
   "meta": {
     "pesoInicial": 105,
     "pesoMeta": 98,
-    "dataInicio": "2026-08-09",
+    "dataInicio": "2026-08-04",
     "dataFim": "2026-12-31",
     "idade": 44,
     "altura": 1.85,
     "gordura": 24
   },
   "dias": [
+    {
+      "date": "2026-08-04",
+      "weekdayNum": 2,
+      "weekday": "Terça-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo",
+        "Aveia"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Excesso de pão branco",
+        "Álcool"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-05",
+      "weekdayNum": 3,
+      "weekday": "Quarta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Funcional + Corrida",
+      "tipo": "funcional",
+      "foco": "Carboidrato leve pré-treino, proteína + carboidrato no pós (treino combinado gasta mais)",
+      "comer": [
+        "Frutas",
+        "Aveia",
+        "Pão integral",
+        "Arroz",
+        "Frango",
+        "Ovos",
+        "Batata doce",
+        "Iogurte"
+      ],
+      "evitar": [
+        "Refeição pesada/gordurosa antes do treino",
+        "Frituras",
+        "Excesso de fibra crua pré-treino"
+      ],
+      "preManha": "Café da manhã leve = pré-treino. Almoço reforçado = pós-treino, com boa proteína.",
+      "preTarde": "Almoço leve = pré-treino. Jantar reforçado em proteína + carbo = pós-treino."
+    },
+    {
+      "date": "2026-08-06",
+      "weekdayNum": 4,
+      "weekday": "Quinta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação + Corrida",
+      "tipo": "dupla",
+      "foco": "Dia mais puxado (dois treinos): priorizar carboidrato e proteína bem distribuídos, boa hidratação",
+      "comer": [
+        "Aveia",
+        "Banana",
+        "Ovos",
+        "Frango",
+        "Arroz",
+        "Batata doce",
+        "Feijão",
+        "Iogurte",
+        "Castanhas"
+      ],
+      "evitar": [
+        "Pular refeições",
+        "Álcool",
+        "Frituras",
+        "Refeições muito gordurosas entre os treinos"
+      ],
+      "preManha": "Café da manhã = pré-musculação. Almoço reforçado = pós-treino/pré-corrida (se corrida à tarde).",
+      "preTarde": "Almoço = pré-treino do dia. Jantar reforçado em proteína = pós-treino."
+    },
+    {
+      "date": "2026-08-07",
+      "weekdayNum": 5,
+      "weekday": "Sexta-feira",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Livre / Descanso ativo",
+      "tipo": "livre",
+      "foco": "Sem treino puxado: leve ajuste para baixo no carboidrato, proteína mantida alta",
+      "comer": [
+        "Vegetais variados",
+        "Frango",
+        "Peixe",
+        "Ovos",
+        "Azeite",
+        "Castanhas",
+        "Feijão"
+      ],
+      "evitar": [
+        "Exagerar na porção 'porque não treinei'",
+        "Doces",
+        "Frituras",
+        "Refrigerante"
+      ],
+      "preManha": "—",
+      "preTarde": "—"
+    },
+    {
+      "date": "2026-08-08",
+      "weekdayNum": 6,
+      "weekday": "Sábado",
+      "month": 8,
+      "monthName": "Agosto",
+      "treino": "Musculação",
+      "tipo": "musculacao",
+      "foco": "Proteína alta + carboidrato moderado ao redor do treino",
+      "comer": [
+        "Ovos",
+        "Frango",
+        "Carne magra",
+        "Feijão",
+        "Arroz (porção controlada)",
+        "Batata doce",
+        "Iogurte",
+        "Queijo"
+      ],
+      "evitar": [
+        "Frituras",
+        "Doces",
+        "Refrigerante",
+        "Álcool",
+        "Excesso de pão branco"
+      ],
+      "preManha": "Café da manhã com carbo+proteína = pré-treino. Almoço reforçado em proteína = pós-treino.",
+      "preTarde": "Almoço moderado = pré-treino. Jantar reforçado em proteína = pós-treino."
+    },
     {
       "date": "2026-08-09",
       "weekdayNum": 7,
@@ -4251,6 +4393,198 @@
       "atividade_extra": {
         "momento": "Tarde",
         "descricao": "Trabalho pesado — transporte de equipamentos militares (esforço físico não estruturado, fora do treino)"
+      }
+    },
+    "2026-08-06": {
+      "peso": {
+        "valor": 105.3,
+        "meta": 98.0,
+        "bmi": 30.8,
+        "gordura_pct": 28.4,
+        "gordura_kg": 29.9,
+        "massa_muscular_kg": 71.8,
+        "massa_muscular_pct": 68.2,
+        "massa_ossea_kg": 3.7,
+        "proteina_pct": 15.5,
+        "agua_pct": null,
+        "agua_kg": null,
+        "bmr_kcal": 2056,
+        "idade_metabolica": null,
+        "gordura_visceral": 14.0,
+        "condicao": "fasted, 05:53"
+      },
+      "treino": {
+        "tipo": "Musculação",
+        "duracao_min": 45,
+        "exercicios": [
+          {
+            "nome": "Supino em pé",
+            "sets": 6,
+            "reps": 10,
+            "carga": "30 kg"
+          },
+          {
+            "nome": "Levantamento de barra com costas retas",
+            "sets": 6,
+            "reps": 10,
+            "carga": "40 kg"
+          },
+          {
+            "nome": "Supino inclinado com halteres",
+            "sets": 6,
+            "reps": 12,
+            "carga": "40 lb"
+          },
+          {
+            "nome": "Pendurado na barra (dead hang)",
+            "sets": 5,
+            "reps": "40s",
+            "carga": null
+          }
+        ]
+      },
+      "refeicoes": [
+        {
+          "momento": "Pré-treino",
+          "itens": [
+            "Creatina",
+            "Pré-treino"
+          ]
+        },
+        {
+          "momento": "Pós-pesagem",
+          "itens": [
+            "1 banana"
+          ]
+        },
+        {
+          "momento": "Café da manhã",
+          "itens": [
+            "2 ovos cozidos",
+            "2 ovos mexidos",
+            "Café com leite",
+            "Meia fatia de pão",
+            "Mamão",
+            "1 pêssego"
+          ]
+        },
+        {
+          "momento": "Almoço",
+          "itens": [
+            "Feijão",
+            "Arroz",
+            "1 colher de strogonoff",
+            "2 pedaços de carne de panela",
+            "2 coxas de frango assadas",
+            "Salada"
+          ]
+        },
+        {
+          "momento": "Jantar",
+          "itens": [
+            "Sanduíche de queijo",
+            "2 fatias de pão integral",
+            "1 xícara de café com leite",
+            "Água"
+          ]
+        }
+      ],
+      "notas": "Dia completo: treino puxado de peito/costas (6 séries por exercício, 45min), boa distribuição de proteína ao longo do dia (ovos, carne de panela, frango assado), jantar leve com pão integral."
+    },
+    "2026-08-07": {
+      "peso": {
+        "valor": 104.8,
+        "meta": 98.0,
+        "bmi": 30.6,
+        "gordura_pct": 28.5,
+        "gordura_kg": 29.9,
+        "massa_muscular_kg": 70.9,
+        "massa_muscular_pct": 67.7,
+        "massa_ossea_kg": 3.6,
+        "proteina_pct": 15.5,
+        "agua_pct": 52.0,
+        "agua_kg": 54.5,
+        "bmr_kcal": 2043,
+        "idade_metabolica": 52,
+        "gordura_visceral": 14.0,
+        "condicao": "fasted, 06:18"
+      },
+      "treino": {
+        "tipo": "Cardio / Funcional",
+        "exercicios": [
+          {
+            "nome": "Jacob's Ladder",
+            "sets": 1,
+            "reps": "10 min",
+            "carga": null
+          },
+          {
+            "nome": "Remo (máquina)",
+            "sets": 1,
+            "reps": "2500 m",
+            "carga": null
+          },
+          {
+            "nome": "Burpees",
+            "sets": 2,
+            "reps": 10,
+            "carga": null
+          },
+          {
+            "nome": "Push ups militar",
+            "sets": 5,
+            "reps": "10-15",
+            "carga": null
+          }
+        ]
+      },
+      "refeicoes": [
+        {
+          "momento": "Pré-treino",
+          "itens": [
+            "Creatina",
+            "1 banana"
+          ]
+        },
+        {
+          "momento": "Café da manhã",
+          "itens": [
+            "2 ovos mexidos",
+            "1 pão integral",
+            "1 xícara de café com leite"
+          ]
+        },
+        {
+          "momento": "Pós-café",
+          "itens": [
+            "1 scoop de whey"
+          ]
+        },
+        {
+          "momento": "Almoço",
+          "itens": [
+            "Arroz",
+            "Feijão",
+            "Salada",
+            "1 bisteca de porco",
+            "1 quadradinho de chocolate",
+            "Suco de limão"
+          ]
+        },
+        {
+          "momento": "Jantar",
+          "itens": [
+            "Macarrão com molho de frango",
+            "Tomates agridoces fritos com muçarela fresca",
+            "Meia taça de vinho",
+            "Metade de um chocolate twist"
+          ]
+        }
+      ],
+      "notas": "Dia com bom volume de cardio pela manhã (Jacob's Ladder + remo + burpees + push ups) e mais um jogo de softball à noite — dia ativo total. Jantar mais pesado em carboidrato e com fritura (tomates fritos), além de vinho e chocolate — vale observar se compensa com o gasto calórico extra do dia ou se passa da meta.",
+      "atividade_extra": {
+        "momento": "Noite",
+        "descricao": "Jogo de softball (atividade física extra à noite, fora do treino formal)"
       }
     }
   }
