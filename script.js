@@ -67,7 +67,7 @@ async function init() {
 
   buildHeader();
   buildMetricFilter();
-  renderChart();
+  try { renderChart(); } catch (e) { console.error('Falha no gráfico:', e); }
   buildLegend();
   buildHeatmap();
   buildFilterMonth();
@@ -112,6 +112,14 @@ function buildMetricFilter() {
 }
 
 function renderChart() {
+  if (typeof Chart === 'undefined') {
+    el('#metric-chart').hidden = true;
+    const empty = el('#chart-empty');
+    empty.hidden = false;
+    empty.textContent = 'não consegui carregar a biblioteca do gráfico (Chart.js) — o resto do site funciona normalmente.';
+    return;
+  }
+
   const registros = state.data.registros || {};
   const dates = Object.keys(registros).sort();
   const canvas = el('#metric-chart');
